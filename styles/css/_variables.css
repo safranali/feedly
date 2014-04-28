@@ -1,0 +1,10 @@
+/**************************************************
+ **************       Variables      **************
+ **************************************************/
+.border-mixin {
+  border: 1px #f2f2f2 solid;
+  border-bottom: 2px #eeeeee solid;
+}
+.border-mixin:hover {
+  border-bottom-color: #f34a53;
+}

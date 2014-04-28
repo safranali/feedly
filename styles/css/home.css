@@ -1,0 +1,23 @@
+/**************************************************
+ **************      Home page     **************
+ **************************************************/
+/* -- Importing variables -- */
+/**************************************************
+ **************       Variables      **************
+ **************************************************/
+.border-mixin {
+  border: 1px #f2f2f2 solid;
+  border-bottom: 2px #eeeeee solid;
+}
+.border-mixin:hover {
+  border-bottom-color: #f34a53;
+}
+.f-welcome-message {
+  font-size: 100px;
+  text-align: center;
+  color: #333333;
+  margin: 100px 0;
+}
+.f-welcome-message span {
+  color: #f34a53;
+}

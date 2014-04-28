@@ -1,0 +1,121 @@
+/**************************************************
+ **************      Base styles     **************
+ **************************************************/
+/* -- Importing variables -- */
+/**************************************************
+ **************       Variables      **************
+ **************************************************/
+.border-mixin {
+  border: 1px #f2f2f2 solid;
+  border-bottom: 2px #eeeeee solid;
+}
+.border-mixin:hover {
+  border-bottom-color: #f34a53;
+}
+/* -------------------------
+---    Default Styles    --- 
+------------------------- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 96%;
+  width: 100%;
+}
+body {
+  background-image: url(../../images/background.png);
+}
+html,
+body,
+a {
+  font-family: "arial", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  color: #6d6d6d;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+.f-hidden {
+  display: none!important;
+}
+/* -------------------------
+---    Main Container    --- 
+------------------------- */
+.f-container {
+  width: 67%;
+  margin: 30px auto;
+  height: 100%;
+  max-height: 100%;
+  background: #FFF;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+}
+.f-container .f-view {
+  padding: 0 40px;
+}
+/* -------------------------
+---     Style bar     --- 
+------------------------- */
+.f-style-bar {
+  width: 100%;
+  height: 3px;
+}
+.f-style-bar div {
+  height: 100%;
+  float: left;
+}
+.f-style-bar .f-style-left {
+  width: 20%;
+  background-color: #f34a53;
+}
+.f-style-bar .f-style-right {
+  width: 80%;
+  background-color: #333333;
+}
+/* -------------------------
+---     Nav bar     --- 
+------------------------- */
+.f-nav-bar {
+  padding: 20px 40px;
+  height: 28px;
+}
+.f-nav-bar .f-nav-left {
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+.f-nav-bar .f-nav-left .f-logo {
+  font-size: 25px;
+  color: #f34a53;
+}
+.f-nav-bar .f-nav-right {
+  width: 80%;
+  float: left;
+  height: 100%;
+}
+.f-nav-bar .f-nav-right .f-menu {
+  margin: 0;
+}
+.f-nav-bar .f-nav-right .f-menu li {
+  float: right;
+  margin-left: 10px;
+  border: 1px #f2f2f2 solid;
+  border-bottom: 2px #eeeeee solid;
+}
+.f-nav-bar .f-nav-right .f-menu li:hover {
+  border-bottom-color: #f34a53;
+}
+.f-nav-bar .f-nav-right .f-menu li.active {
+  border-bottom-color: #f34a53;
+}
+.f-nav-bar .f-nav-right .f-menu li a {
+  margin: 5px 10px;
+  display: block;
+}

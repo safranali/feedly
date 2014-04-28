@@ -1,0 +1,3 @@
+/*
+ * app.js testing specs
+ */

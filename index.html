@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="feedly" ng-controller="Root">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta name="description" content="A simple article reader app.">
+        <meta name="author" content="Safran Ali">
+        <meta name="keywords" content="feedly, article, html5, angularjs, less, grunt, jasmine, safranali, @safranali">
+        
+        <title>{{$page.getTitle()}}</title>
+
+        <!-- STYLES -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+        
+        <link rel="stylesheet" href="styles/default.min.css"/>
+        <!-- /STYLES -->
+        
+        <!-- Libraries -->
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-route.min.js"></script>
+        <!-- /Libraries -->
+        
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="scripts/default.min.js"></script>
+        <!-- /SCRIPTS -->
+        
+    </head>
+
+    <body>
+        <div class="f-container">
+            <div class="f-style-bar">
+                <div class="f-style-left"></div>
+                <div class="f-style-right"></div>
+            </div>
+            <div class="f-nav-bar">
+                <div class="f-nav-left">
+                    <a href="#/" class="f-logo">feedly</a>
+                </div>
+                <div class="f-nav-right">
+                    <ul class="f-menu">
+                        <li ng-class="isActive('/articles')"><a href="#/articles">Articles</a></li>
+                        <li ng-class="isActive('/')"><a href="#/">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f-view" ng-view></div>
+        </div>
+    </body>
+</html>
