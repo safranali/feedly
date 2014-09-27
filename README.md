@@ -35,4 +35,4 @@ Author
 
 Safran Ali
 * <a href="http://twitter.com/safranali">@safranali</a>
-* http://safranali.info
+* http://safranali.com
