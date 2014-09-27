@@ -27,7 +27,7 @@ And it works in following manner:
 Demo
 ====
 
-http://safranali.info/projects/feedly/
+http://safranali.com/projects/feedly/
 
 
 Author
